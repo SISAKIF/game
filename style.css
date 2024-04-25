@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+/* header css part start now */
+#header{
+    width: 100%;
+    height: 15vh;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.left .again{
+    height: 60px;
+    width: 150px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.right h1{
+    margin-top: 30px;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.game_name1{
+    width: 100%;
+}
+.game_name{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.randome_genarat{
+    padding: 10px 50px;
+    font-size: 4rem;
+    margin-left: 47%;
+    margin-top: 10px;
+    
+}
+/* header css part end now */
+
+/* bottom css part start now */
+#bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.bottom_left{
+    margin-top: 120px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+    width: 40%;
+}
+.bottom_right{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    /* border: 1px solid white; */
+    width: 40%;
+
+}
+.guess_number{
+    height: 70px;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    width: 150px;
+    text-align: center;
+}
+.check{
+    padding: 5px 5px;
+    font-size: 1.5rem;
+}
+.message{
+  
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.message_score{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.message_hightscore{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+/* bottom css part end now */
